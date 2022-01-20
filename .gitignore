@@ -1,0 +1,12 @@
+# editor
+*/.vs
+*/.vscode
+
+# vvvv
+/.vl
+
+# dotnet obj
+*.deps.json
+*.pdb
+*/bin
+*/obj

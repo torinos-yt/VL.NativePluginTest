@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="NVAD6f0gyyGM1wD1fQH6wc" LanguageVersion="2021.4.5.764" Version="0.128">
+  <Patch Id="TVCh66emrJDOEJqdXyYo2f">
+    <Canvas Id="UdwwQ4cl8PXP7gS318kLnm" DefaultCategory="Main" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="DGdTlmEA0uMQBE4VfRacds">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="KEI4NOKNBbAOmdNAcWGrCx">
+        <Canvas Id="EFoUCJArU1ZQHphrlMOeW9" CanvasType="Group">
+          <Node Bounds="703,256,25,19" Id="OZcpsgaproMO6a7IiuJiLF">
+            <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="+" />
+            </p:NodeReference>
+            <Pin Id="L2qCQ5JIoSjLs6XbHdqfzZ" Name="Input" Kind="InputPin" />
+            <Pin Id="Pedk8AL2ANaL4nlpxbBG74" Name="Input 2" Kind="InputPin" />
+            <Pin Id="UE9SaXCwpvCMKKkznsoBSC" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="JduI2b6m49ONCjtxY7jdpA" Comment="Input" Bounds="698,165,35,15" ShowValueBox="true" isIOBox="true" Value="11">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="Integer32" />
+              <FullNameCategoryReference ID="Primitive" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="ID1IyD6x6VPMSXgAf3w7QK" Comment="" Bounds="771,215,35,15" ShowValueBox="true" isIOBox="true" Value="39">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="E4PFtKXz7hDNsN9oZY2N1e" Comment="" Bounds="698,324,35,15" ShowValueBox="true" isIOBox="true" />
+          <Node Bounds="455,308" Id="F1qL3RrvjvAPA5Nq6qz7C6">
+            <p:NodeReference LastCategoryFullName="NativePlauginTest.Test" LastSymbolSource="NativePlauginTest.dll">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="AddTest" />
+            </p:NodeReference>
+            <Pin Id="Ps2gF0B9rPXPvVmRdIdU7D" Name="A" Kind="InputPin" />
+            <Pin Id="On2henc4yicLqWZN0qYIZr" Name="B" Kind="InputPin" />
+            <Pin Id="FrEt9xmmJBYOqYatj4sEIL" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="PDtlAM03ATpMOgaTf3PVKV" Comment="A" Bounds="427,245,35,15" ShowValueBox="true" isIOBox="true" Value="5">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="H3XnV50yafJL0QNg4dC57h" Comment="B" Bounds="530,269,35,15" ShowValueBox="true" isIOBox="true" Value="10">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="IbSTGNsQoQpO1C53QViBkX" Comment="" Bounds="465,346,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="Ktjg0SFQSi6MHrbavbRIUG" Comment="" Bounds="500,403,35,15" ShowValueBox="true" isIOBox="true" Value="1">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="Vi1sWQ9TahkLv7jFcxMcZ6" Comment="Y" Bounds="595,417,35,15" ShowValueBox="true" isIOBox="true" Value="2">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="508,503,25,19" Id="H6vefYhRaGcOtvJq2T8ucR">
+            <p:NodeReference LastCategoryFullName="NativePlauginTest.Test" LastSymbolSource="NativePlauginTest.dll">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="MultNative" />
+            </p:NodeReference>
+            <Pin Id="H21d6jVtrEhQYEPVbtRutH" Name="X" Kind="InputPin" />
+            <Pin Id="S3OTwR0JmJuLU06QR5cUpl" Name="Y" Kind="InputPin" />
+            <Pin Id="LCz0AsPwaMOM7SdpW44BRx" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="AQfdKpi8r3qOu51poxzRBE" Comment="" Bounds="510,563,35,15" ShowValueBox="true" isIOBox="true" />
+        </Canvas>
+        <Patch Id="HMO9N9Y6Em6LtsGjPsEZVz" Name="Create" />
+        <Patch Id="NbbZc1uHnt9PkAAbgm3YJF" Name="Update" />
+        <ProcessDefinition Id="L7axI7Df0AZQZdESXpLKoT">
+          <Fragment Id="B8OfsMnF4EkQT7YEeUho0U" Patch="HMO9N9Y6Em6LtsGjPsEZVz" Enabled="true" />
+          <Fragment Id="MUHi8aEvI8YNPMuA1wExXR" Patch="NbbZc1uHnt9PkAAbgm3YJF" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="KC7M8pLzvXFMwXYEtJcqpO" Ids="JduI2b6m49ONCjtxY7jdpA,L2qCQ5JIoSjLs6XbHdqfzZ" />
+        <Link Id="IQrPgRhvDJaPEAAEKgWNhb" Ids="ID1IyD6x6VPMSXgAf3w7QK,Pedk8AL2ANaL4nlpxbBG74" />
+        <Link Id="Lc9dZ4zsm6TQAcpNXKW5iI" Ids="UE9SaXCwpvCMKKkznsoBSC,E4PFtKXz7hDNsN9oZY2N1e" />
+        <Link Id="EBOuy0vvU70PiLVNOrHvjV" Ids="PDtlAM03ATpMOgaTf3PVKV,Ps2gF0B9rPXPvVmRdIdU7D" />
+        <Link Id="J5891S0ANy0M9cWRHJT0WE" Ids="H3XnV50yafJL0QNg4dC57h,On2henc4yicLqWZN0qYIZr" />
+        <Link Id="IBuLByuu8SGMcfyip5GP2x" Ids="FrEt9xmmJBYOqYatj4sEIL,IbSTGNsQoQpO1C53QViBkX" />
+        <Link Id="ScXmdJt15ElOFJkUVOksJR" Ids="Vi1sWQ9TahkLv7jFcxMcZ6,S3OTwR0JmJuLU06QR5cUpl" />
+        <Link Id="SeohPcWlq0IP4axsLGpeOF" Ids="Ktjg0SFQSi6MHrbavbRIUG,H21d6jVtrEhQYEPVbtRutH" />
+        <Link Id="Ix0pNv2igbGMgViRLueh1h" Ids="LCz0AsPwaMOM7SdpW44BRx,AQfdKpi8r3qOu51poxzRBE" />
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="FlGLX1mysdeLwEhv0eieNO" Location="VL.CoreLib" Version="2021.4.5" />
+  <PlatformDependency Id="Fhsk8V0U8R0P3XOnZfpdUK" Location="./lib/netstanderd2.0/NativePlauginTest.dll" />
+</Document>
