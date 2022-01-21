@@ -7,7 +7,7 @@ namespace NativePlauginTest
         #pragma warning disable CA5393
         [DefaultDllImportSearchPaths(DllImportSearchPath.AssemblyDirectory)]
 
-        [DllImport("../native/TestPluginNative.dll", EntryPoint="MultTest")]
+        [DllImport("../native/TestPluginNative.dll")]
         static extern float MultTest(float x, float y);
 
         public static int AddTest(int a, int b)

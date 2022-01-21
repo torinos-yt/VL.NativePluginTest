@@ -1,5 +1,6 @@
 VL.NativePluginTest
 ===========================
+![img](https://i.imgur.com/AYkZrio.png)
 This is a test project that show how to written native plugin for vvvv gamma using c++ and wsl.
 
 Require
@@ -11,4 +12,10 @@ Require
 
 How to build plugin
 ---------------------------
-run `src/build.sh` on wsl console.
+Copy the various assemblies to `src/lib` to use the Stride API.
+  - Stride.dll
+  - Stride.Core.dll
+  - Stride.Rendering.dll
+  - Stride.Graphics.dll  
+
+and run `src/build.sh` on wsl console.

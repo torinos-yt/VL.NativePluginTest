@@ -10,7 +10,7 @@ STRIP = $(TOOLCHAIN)-strip
 #
 
 TARGET = TestPluginNative
-SRCS = test.cpp
+SRCS = test.cpp image.cpp geom.cpp
 OUT_DIR = ../../lib/native
 
 #
